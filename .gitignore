@@ -1,0 +1,36 @@
+# gitignore for GitHub Page reposity ClintMulligan.github.io
+
+# File formats to ignore
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+*.iml
+
+# Folders to ignore
+node_modules
+logs
+results
+tmp
+lib-cov
+pids
+developer
+
+# Specific Files to ignore
+# dotenv is used to access .env file for secret vaiables and info (DO NOT push to public repositories)
+.env
+npm-debug.log
+Thumbs.db
+
+
+# Hidden Folders to ignore
+# vs folder is created by visual studio
+.vs
+.idea
+.DS_Store
+
+
