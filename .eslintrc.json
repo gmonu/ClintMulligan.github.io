@@ -358,9 +358,11 @@
             1,
             80,
             2,
-            { "ignoreUrls" : true },
-            { "ignoreTemplateLiterals" : true },
-            { "ignoreRegExpLiterals" : true }
+            {
+                "ignoreUrls" : true,
+                "ignoreTemplateLiterals" : true,
+                "ignoreRegExpLiterals" : true
+            }
         ],
         "max-params": 0,
         "max-statements": 0,
