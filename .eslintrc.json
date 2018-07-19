@@ -164,7 +164,8 @@
             "error",
             {
                 "functions": false,
-                "classes": true
+                "classes": true,
+                "variables": true
             }
         ],
         "callback-return": 2,
@@ -228,7 +229,7 @@
         "no-continue": 2,
         "no-inline-comments": 0,
         "no-lonely-if": 2,
-        "no-mixed-spaces-and-tabs": 0,
+        "no-mixed-spaces-and-tabs": 2,
         "no-multiple-empty-lines": [
             2,
             {
@@ -238,7 +239,7 @@
         "no-nested-ternary": 0,
         "no-new-object": 2,
         "no-spaced-func": 2,
-        "no-ternary": 2,
+        "no-ternary": 0,
         "no-trailing-spaces": 2,
         "no-underscore-dangle": 2,
         "no-unneeded-ternary": 2,
@@ -294,11 +295,11 @@
             "never"
         ],
         "space-in-parens": [
-            2,
-            "always",
+            "error",
+            "never",
             {
                 "exceptions": [
-                    "{}"
+                    "()"
                 ]
             }
         ],
@@ -359,9 +360,9 @@
             80,
             2,
             {
-                "ignoreUrls" : true,
-                "ignoreTemplateLiterals" : true,
-                "ignoreRegExpLiterals" : true
+                "ignoreUrls": true,
+                "ignoreTemplateLiterals": true,
+                "ignoreRegExpLiterals": true
             }
         ],
         "max-params": 0,
@@ -388,7 +389,7 @@
             1
         ],
         "require-jsdoc": [
-            "error",
+            1,
             {
                 "require": {
                     "FunctionDeclaration": true,
