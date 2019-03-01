@@ -1,2 +1,6 @@
 # ClintMulligan.github.io
-github repository to host web resources (via GitHub Pages) for README.md files for my projects.
+Github Pages repository.
+
+Here's a link to the page: https://clintmulligan.github.io/
+
+It's a simple w3c.css based theme, CV Resume type page.
